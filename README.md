@@ -1,38 +1,31 @@
-# spfx-productivity-dashboard
+# One Productivity Hub powered by SharePoint Framework
 
-## Summary
+This repository contains a demo application that helps you keep track of your activities planned for the day. The application is built using the SharePoint Framework and runs in Microsoft Teams, Outlook, Microsoft 365 app, and SharePoint. It uses Microsoft Graph Toolkit to connect to Microsoft Graph and display data from Microsoft 365.
 
-Short summary on functionality and used technologies.
+![One Productivity Hub displayed in Microsoft Teams](./assets/screenshot.png)
 
-[picture of the solution in action, if possible]
+This solution is inspired by the [One Productivity Hub](https://github.com/OfficeDev/OneProductivityHub-TeamsFx) built by Ayça Bas.
 
 ## Used SharePoint Framework Version
 
-![version](https://img.shields.io/badge/version-1.13-green.svg)
-
-## Applies to
-
-- [SharePoint Framework](https://aka.ms/spfx)
-- [Microsoft 365 tenant](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/set-up-your-developer-tenant)
-
-> Get your own free development tenant by subscribing to [Microsoft 365 developer program](http://aka.ms/o365devprogram)
+![version](https://img.shields.io/badge/version-1.16.0--beta.2-green.svg)
 
 ## Prerequisites
 
-> Any special pre-requisites?
+- [SharePoint Framework](https://learn.microsoft.com/sharepoint/dev/spfx/set-up-your-development-environment?WT.mc_id=m365-80548-wmastyka)
+- [Microsoft 365 tenant](https://learn.microsoft.com/sharepoint/dev/spfx/set-up-your-developer-tenant?WT.mc_id=m365-80548-wmastyka)
 
 ## Solution
 
-| Solution    | Author(s)                                               |
-| ----------- | ------------------------------------------------------- |
-| folder name | Author details (name, company, twitter alias with link) |
+Solution|Author(s)
+--------|---------
+One Productivity Hub|[Waldek Mastykarz](https://github.com/waldekmastykarz), [@waldekm](https://twitter.com/waldekm)
 
 ## Version history
 
 | Version | Date             | Comments        |
 | ------- | ---------------- | --------------- |
-| 1.1     | March 10, 2021   | Update comment  |
-| 1.0     | January 29, 2021 | Initial release |
+| 1.0     | November 1, 2022 | Initial release |
 
 ## Disclaimer
 
@@ -48,26 +41,16 @@ Short summary on functionality and used technologies.
   - **npm install**
   - **gulp serve**
 
-> Include any additional steps as needed.
-
 ## Features
 
-Description of the extension that expands upon high-level summary above.
+This solution illustrates the following concepts:
 
-This extension illustrates the following concepts:
-
-- topic 1
-- topic 2
-- topic 3
-
-> Notice that better pictures and documentation will increase the sample usage and the value you are providing for others. Thanks for your submissions advance.
-
-> Share your web part with others through Microsoft 365 Patterns and Practices program to get visibility and exposure. More details on the community, open-source projects and other activities from http://aka.ms/m365pnp.
+- [Using Microsoft Graph Toolkit in SharePoint Framework solutions to connect to Microsoft Graph](https://learn.microsoft.com/sharepoint/dev/spfx/web-parts/get-started/build-web-part-microsoft-graph-toolkit?WT.mc_id=m365-80548-wmastyka)
+- [Retrieving data from Microsoft 365 using Microsoft Graph and Microsoft Graph Toolkit](https://learn.microsoft.com/graph/toolkit/overview?WT.mc_id=m365-80548-wmastyka)
 
 ## References
 
-- [Getting started with SharePoint Framework](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/set-up-your-developer-tenant)
-- [Building for Microsoft teams](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/build-for-teams-overview)
-- [Use Microsoft Graph in your solution](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/web-parts/get-started/using-microsoft-graph-apis)
-- [Publish SharePoint Framework applications to the Marketplace](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/publish-to-marketplace-overview)
-- [Microsoft 365 Patterns and Practices](https://aka.ms/m365pnp) - Guidance, tooling, samples and open-source controls for your Microsoft 365 development
+- [Getting started with SharePoint Framework](https://learn.microsoft.com/sharepoint/dev/spfx/set-up-your-developer-tenant?WT.mc_id=m365-80548-wmastyka)
+- [Building for Microsoft teams](https://learn.microsoft.com/sharepoint/dev/spfx/build-for-teams-overview?WT.mc_id=m365-80548-wmastyka)
+- [Use Microsoft Graph Toolkit in your web parts](https://learn.microsoft.com/sharepoint/dev/spfx/web-parts/get-started/build-web-part-microsoft-graph-toolkit?WT.mc_id=m365-80548-wmastyka)
+- [Use Microsoft Graph in your solution](https://learn.microsoft.com/sharepoint/dev/spfx/web-parts/get-started/using-microsoft-graph-apis?WT.mc_id=m365-80548-wmastyka)

@@ -3,7 +3,7 @@
   "solution": {
     "name": "spfx-productivity-dashboard-client-side-solution",
     "id": "a6240e42-f9f6-49a9-b642-b16cac87b013",
-    "version": "1.0.1.0",
+    "version": "1.0.3.0",
     "includeClientSideAssets": true,
     "skipFeatureDeployment": true,
     "isDomainIsolated": false,
